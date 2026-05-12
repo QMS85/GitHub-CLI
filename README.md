@@ -2,10 +2,10 @@
 
 ## Work seamlessly with GitHub from the command line.   
 
-### USAGE:
+### Usage:
   `gh <command> <subcommand>` [flags]  
 
-### CORE COMMANDS:
+### Core Commands:
   `auth:`          Authenticate gh and git with GitHub  
   `browse:`        Open repositories, issues, pull requests, and more in the browser  
   `codespace:`     Connect to and manage codespaces  
@@ -18,15 +18,15 @@
   `repo:`          Manage repositories  
   `skill:`         Install and manage agent skills (preview)  
 
-### GITHUB ACTIONS COMMANDS:  
+### GitHub Actions Commands:  
   `cache:`         Manage GitHub Actions caches  
   `run:`           View details about workflow runs  
   `workflow:`      View details about GitHub Actions workflows  
 
-### ALIAS COMMANDS:  
+### Alias Commands:  
   `co:`            Alias for "pr checkout"  
 
-### ADDITIONAL COMMANDS:   
+### Additional Commands:   
   `agent-task:`    Work with agent tasks (preview)  
   `alias:`         Create command shortcuts  
   `api:`           Make an authenticated GitHub API request  
@@ -46,7 +46,7 @@
   `status:`        Print information about relevant issues, pull requests, and notifications across repositories  
   `variable:`      Manage GitHub Actions variables  
 
-### HELP TOPICS:   
+### Help Topics:   
   `accessibility:` Learn about GitHub CLI's accessibility experiences  
   `actions:`       Learn about working with GitHub Actions  
   `environment:`   Environment variables that can be used with gh  
@@ -56,16 +56,16 @@
   `reference:`     A comprehensive reference of all gh commands  
   `telemetry:`     Information about telemetry in gh  
 
-### FLAGS:   
+### Flags:   
   `--help`      Show help for command  
   `--version`   Show gh version  
 
-### EXAMPLES:  
+### Examples:  
   `$ gh issue create`  
   `$ gh repo clone cli/cli`  
   `$ gh pr checkout 321`  
 
-### LEARN MORE:  
+### Learn More:  
   Use `gh <command> <subcommand> --help` for more information about a command.  
   Read the manual at https://cli.github.com/manual  
   Learn about exit codes using `gh help exit-codes`  
